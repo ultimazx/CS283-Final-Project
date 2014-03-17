@@ -150,6 +150,7 @@ const char filepath[] = "record.txt";
 		else if(temp == 2){
 		}
 		else{
+		map2[m][n] = 2;
 		flag = 0;
 		}
 	
