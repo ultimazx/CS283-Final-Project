@@ -75,9 +75,7 @@ const char filepath[] = "record.txt";
  int player1 = 17;
  int player2 = 17;
  int temp;
- int b, c;
- int m = rand() % 10;
- int n = rand() % 10;
+ int b, c, m, n;
  unsigned int flag = 0;
 
 
@@ -142,6 +140,8 @@ const char filepath[] = "record.txt";
 	}
 //player 2 turn aka non uniform search turn
 	else{
+	 m = rand() % 10;
+ 	 n = rand() % 10;
 	temp = map2[m][n];
 		if(temp == 1){
 		player2--;
